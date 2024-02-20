@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{12FB53BC-4536-415E-80DE-38FCF737F41D}|https">
+  <MonoDevelop.Ide.ItemProperties.Tns__Test PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tns_Test/Controllers/UsersController.cs">
+    <Files>
+      <File FileName="Tns_Test/Controllers/DepartmentsController.cs" Line="73" Column="10" IsPinned="True" />
+      <File FileName="Tns_Test/Controllers/UsersController.cs" Line="80" Column="1" />
+      <File FileName="Tns_Test/Models/Departments.cs" Line="16" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tns_Test" expanded="True">
+            <Node name="Tns_Test">
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
