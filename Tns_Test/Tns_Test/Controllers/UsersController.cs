@@ -22,8 +22,10 @@ namespace Tns_Test.Controllers
         public IActionResult getAllUsers()
         {
             try {
-                var users = _context.Users;
-                return Ok(users);
+                var user = _context.Users.Select(d => new { id = d.Id, name = d.Name, departmentId = d.DepartmentId }).ToList();
+                var response = new { user = user };
+
+                return Ok(response);
             }
             catch (Exception)
             {
@@ -44,6 +46,7 @@ namespace Tns_Test.Controllers
                 {
                     return NotFound();
                 }
+                var response = new { users = new { id = users.Id, dname = users.Name, location = users.DepartmentId } };
                 return Ok(users);
 
             }
