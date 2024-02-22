@@ -41,13 +41,13 @@ namespace Tns_Test.Controllers
         {
             try
             {
-                var users = _context.Users.Find(id);
-                if (users == null)
+                var user = _context.Users.Find(id);
+                if (user == null)
                 {
                     return NotFound();
                 }
-                var response = new { users = new { id = users.Id, dname = users.Name, location = users.DepartmentId } };
-                return Ok(users);
+                var response = new { user = new { id = user.Id, name = user.Name, departmentId = user.DepartmentId } };
+                return Ok(response);
 
             }
             catch (Exception)
