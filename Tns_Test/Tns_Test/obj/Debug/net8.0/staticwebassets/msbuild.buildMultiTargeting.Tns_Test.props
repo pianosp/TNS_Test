@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Tns_Test.props" />
+</Project>
